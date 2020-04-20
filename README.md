@@ -36,7 +36,7 @@ The code requires python 3 and the foillowing packages: csv, matplotlib, scipy, 
 The nation or state of your choice is hard wired in Line 21 of the code 
 
 ```
-nation='spain' # change to any other nation or US State, e.g. nation='arizona'
+nation='portugal' # change to any other nation or US State, e.g. nation='arizona'
 ```
 
 To run at a terminal:
@@ -48,13 +48,16 @@ This will produce 3 images:
 
 *The timeseries of new cases, showing also smoothing 
 
-![Timeseries](Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png)
-
+<img src="./images/NewCases_Timeseries_portugal.pdf" >
 
 *The running time estimation of Rt
 
+<img src="./images/Rt_Estimation_portugal.pdf" >
 
 *The running prediction of new cases (anomalies are shown as cases the  model did not initially predict well):
+
+<img src="./images/Observed_Predicted_New_Cases_Anomalies_portugal.pdf" >
+
 
 ### Cities and Metropolitan Areas
 
@@ -75,10 +78,10 @@ Producing time series
 <img src="./images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png" > 
 
 Running Rt estimates
-<img src="./images/Rt_w_Uncertainty_Chicago-Naperville-Elgin IL-IN-WI.png" | width=24> 
+<img src="./images/Rt_w_Uncertainty_Chicago-Naperville-Elgin IL-IN-WI.png"> 
 
 And predicted cases
-<img src="./images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png"> 
+<img src="./images/Observed_vs_Predicted_Daily_Cases_Chicago-Naperville-Elgin IL-IN-WI.png"> 
 
 
 ### US Counties
