@@ -48,6 +48,9 @@ This will produce 3 images:
 
 *The timeseries of new cases, showing also smoothing 
 
+![Timeseries](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
+
 *The running time estimation of Rt
 
 
