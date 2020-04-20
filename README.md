@@ -48,15 +48,15 @@ This will produce 3 images:
 
 *The timeseries of new cases, showing also smoothing 
 
-<img src="./images/NewCases_Timeseries_portugal.pdf" >
+<img src="./images/NewCases_Timeseries_portugal.png" >
 
 *The running time estimation of Rt
 
-<img src="./images/Rt_Estimation_portugal.pdf" >
+<img src="./images/Rt_Estimation_portugal.png" >
 
 *The running prediction of new cases (anomalies are shown as cases the  model did not initially predict well):
 
-<img src="./images/Observed_Predicted_New_Cases_Anomalies_portugal.pdf" >
+<img src="./images/Observed_Predicted_New_Cases_Anomalies_portugal.png" >
 
 
 ### Cities and Metropolitan Areas
@@ -97,6 +97,14 @@ To run at a terminal:
 ```
 python County_Epi_Bayesian_Estimation_Projection.py
 ```
+
+Producing the same type of analysis for  each county with more than a few cases
+
+<img src="./images/Daily_New_Cases_w_Smoothing_Winnebago County, Illinois.png" > 
+
+<img src="./images/Rt_w_Uncertainty_Winnebago County, Illinois.png" > 
+
+<img src="./images/Observed_vs_Predicted_Daily_Cases_Winnebago County, Illinois.png" >
 
 Beware: This produces many plots (3 per county in the state). Here are some examples from Illinois:
 
