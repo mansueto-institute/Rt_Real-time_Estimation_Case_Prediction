@@ -72,7 +72,7 @@ python MSA_Epi_Bayesian_Estimation_Projection.py
 ```
 
 Producing
-<img src="./images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png"> 
+<img src="./images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png"| width=20> 
 
 ### US Counties
 
