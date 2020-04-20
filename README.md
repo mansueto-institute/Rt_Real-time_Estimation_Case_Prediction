@@ -17,10 +17,12 @@ These scripts contain some improvements relative to the original methods as they
 	
 * the branching parameter <img src="https://render.githubusercontent.com/render/math?math=b_t"> described by a [Gamma distributed](https://en.wikipedia.org/wiki/Gamma_distribution) [conjugate prior](https://en.wikipedia.org/wiki/Conjugate_prior), 
 	
-* the [posterior predictor](https://en.wikipedia.org/wiki/Posterior_predictive_distribution) of future cases described by a [Negative Binomial distribution](https://en.wikipedia.org/wiki/Negative_binomial_distribution);
+* the [posterior predictor](https://en.wikipedia.org/wiki/Posterior_predictive_distribution) of future cases described by a [Negative Binomial distribution](https://en.wikipedia.org/wiki/Negative_binomial_distribution),
 
-2. anomaly detection of new cases below or above the model's running expectation at some level of confidence (99% in the code)
-3. annealing (average preserving variance increase) of the new cases and <img src="https://render.githubusercontent.com/render/math?math=R_t"> distributions to include the anomalous cases.
+2. anomaly detection of new cases below or above the model's running expectation at some level of confidence (99% in the code),
+
+3. annealing (average preserving variance increase) of the new cases and <img src="https://render.githubusercontent.com/render/math?math=R_t"> distributions to include the anomalous cases,
+
 4. windowing and some case smoothing (similar to the [Rt.live](Rt.live)
  implementation) to obtain local running estimates and avoid reporting chunking.
 
