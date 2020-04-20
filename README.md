@@ -71,8 +71,15 @@ To run at a terminal:
 python MSA_Epi_Bayesian_Estimation_Projection.py
 ```
 
-Producing
-<img src="./images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png"| width=20> 
+Producing time series
+<img src="./images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png"> 
+
+Running Rt estimates
+<img src="./images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png"> 
+
+And predicted cases
+<img src="./images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png"> 
+
 
 ### US Counties
 
