@@ -92,7 +92,7 @@ And predicted cases
 
 ### US Counties
 
-For US Counties, I organized them by State. Choosing a State reproduces the analysis for each county with more than a chose (here 5) number of cases:
+For US Counties, I organized them by State. Choosing a State reproduces the analysis for each county with more than a chosen (here 5) number of cases:
 
 Choose your State in line 28 and produce the same three outputs.
 ```
