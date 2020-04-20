@@ -117,7 +117,6 @@ The code is very basic and can use your talent to make it better and more useful
 
 * [Luis M. A. Bettencourt](https://twitter.com/BettencourtLuis)
 
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
