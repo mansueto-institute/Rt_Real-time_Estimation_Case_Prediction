@@ -47,7 +47,6 @@ python data_tracker_bayes.py
 This will produce 3 images:
 
 *The timeseries of new cases, showing also smoothing 
-
 ![Timeseries](images/NewCases_Timeseries_portugal.pdf)
 
 
