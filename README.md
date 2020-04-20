@@ -48,7 +48,7 @@ This will produce 3 images:
 
 *The timeseries of new cases, showing also smoothing 
 
-![Timeseries](images/NewCases_Timeseries_portugal.pdf)
+![Timeseries](images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png)
 
 
 *The running time estimation of Rt
