@@ -1,4 +1,4 @@
-# Project Title
+# Bayesian Rt Estimation and Epidemiological New Case Prediction
 
 This is a collection of Python Scripts to:
 
@@ -48,7 +48,7 @@ This will produce 3 images:
 
 *The timeseries of new cases, showing also smoothing 
 
-![Timeseries](https://github.com/mansueto-institute/Rt_Real-time_Estimation_Case_Prediction/blob/master/images/NewCases_Timeseries_portugal.pdf)
+![Timeseries](/images/NewCases_Timeseries_portugal.pdf)
 
 
 *The running time estimation of Rt
