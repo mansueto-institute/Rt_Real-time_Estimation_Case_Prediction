@@ -10,14 +10,18 @@ This is a collection of Python Scripts to:
 The method was originally developed by [Bettencourt & Ribeiro (2008)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002185) for emerging infectious diseases and recently beautifully implemented by [Kevin Systrom](https://twitter.com/kevin) and [Mike Krieger](https://twitter.com/mikeyk) for COVID-19 data as [Rt.live](Rt.live)
 
 These scripts contain some improvements relative to the original methods as they use: 
-- a fast parametric Bayesian update of standard (Susceptible-Infectious-Recovered/Dead) epidemiological models 
-        with i) new cases described as before by a [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution), given previous cases,
-        ii) the branching parameter <img src="https://render.githubusercontent.com/render/math?math=b_t"> described by a [Gamma distributed](https://en.wikipedia.org/wiki/Gamma_distribution) [conjugate prior](https://en.wikipedia.org/wiki/Conjugate_prior),        
-        iii) the [posterior predictor](https://en.wikipedia.org/wiki/Posterior_predictive_distribution) of future cases described by a [Negative Binomial distribution](https://en.wikipedia.org/wiki/Negative_binomial_distribution);
+1. a fast parametric Bayesian update of standard (Susceptible-Infectious-Recovered/Dead) epidemiological models 
+        with 
+	
+* new cases described as before by a [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution), given previous cases,
+	
+* the branching parameter <img src="https://render.githubusercontent.com/render/math?math=b_t"> described by a [Gamma distributed](https://en.wikipedia.org/wiki/Gamma_distribution) [conjugate prior](https://en.wikipedia.org/wiki/Conjugate_prior), 
+	
+* the [posterior predictor](https://en.wikipedia.org/wiki/Posterior_predictive_distribution) of future cases described by a [Negative Binomial distribution](https://en.wikipedia.org/wiki/Negative_binomial_distribution);
 
-- anomaly detection of new cases below or above the model's running expectation at some level of confidence (99% in the code)
-- annealing (average preserving variance increase) of the Rt distribution to include the anomalous cases.
-- windowing and some case smoothing (similar to the [Rt.live](Rt.live)
+2. anomaly detection of new cases below or above the model's running expectation at some level of confidence (99% in the code)
+3. annealing (average preserving variance increase) of the Rt distribution to include the anomalous cases.
+4. windowing and some case smoothing (similar to the [Rt.live](Rt.live)
  implementation) to obtain local running estimates and avoid reporting chunking.
 
 These developments make the method more robust, faster, more adaptive (avoid Bayesian overshrinking) and capable of handling different geographies, 
