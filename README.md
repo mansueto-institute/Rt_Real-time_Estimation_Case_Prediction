@@ -71,6 +71,7 @@ To run at a terminal:
 python MSA_Epi_Bayesian_Estimation_Projection.py
 ```
 
+![Chicago](images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png)
 
 ### US Counties
 
