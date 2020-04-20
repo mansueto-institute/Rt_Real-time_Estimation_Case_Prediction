@@ -72,10 +72,10 @@ python MSA_Epi_Bayesian_Estimation_Projection.py
 ```
 
 Producing time series
-<img src="./images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png"> 
+<img src="./images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png" > 
 
 Running Rt estimates
-<img src="./images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png"> 
+<img src="./images/Rt_w_Uncertainty_Chicago-Naperville-Elgin IL-IN-WI.png" | width=24> 
 
 And predicted cases
 <img src="./images/Daily_New_Cases_w_Smoothing_Chicago-Naperville-Elgin IL-IN-WI.png"> 
